@@ -1,0 +1,98 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background-color: rgb(246, 241, 235);
+}
+.frame, .container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(105, 0, 255, 0.409);
+}
+.frame h1{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(109, 107, 115);
+}
+.frame2,.frame3,.frame4,.frame5 h1{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(109, 107, 115);
+}
+#startBtn3 {
+    display: block;
+    margin: 180px auto;
+    padding: 10px 20px;
+    background-color: rgb(14, 18, 227);
+    color: white;
+    box-shadow: 0 0 20px rgb(14, 18, 227);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#startBtn2{
+    display: block;
+    margin: 230px auto;
+    padding: 10px 20px;
+    background-color: rgb(14, 18, 227);
+    color: white;
+    box-shadow: 0 0 20px rgb(14, 18, 227);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#startBtn {
+   display: block;
+    margin: 90px auto;
+    padding: 10px 20px;
+    background-color: rgb(14, 18, 227);
+    color: white;
+    box-shadow: 0 0 20px rgb(14, 18, 227);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#startBtn4{
+    display: block;
+    margin: 180px auto;
+    padding: 10px 20px;
+    background-color: rgb(14, 18, 227);
+    color: white;
+    box-shadow: 0 0 20px rgb(14, 18, 227);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#startBtn5 {
+    display: block;
+    margin: 230px auto;
+    padding: 10px 20px;
+    background-color: rgb(14, 18, 227);
+    color: white;
+    box-shadow: 0 0 20px rgb(14, 18, 227);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#startBtn:hover,#startBtn2:hover,#startBtn3:hover,#startBtn4:hover {
+    background-color: rgba(244, 15, 213, 0.409);
+    box-shadow: 0 0 20px rgb(244, 15, 213, 0.409);
+    /* transition-delay: 200ms; */
+}
+#name1,#name2,#numberInput1,#numberInput2 {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
