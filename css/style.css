@@ -61,7 +61,7 @@ body {
 }
 #startBtn4{
     display: block;
-    margin: 180px auto;
+    margin: 120px auto;
     padding: 10px 20px;
     background-color: rgb(14, 18, 227);
     color: white;
@@ -73,7 +73,7 @@ body {
 }
 #startBtn5 {
     display: block;
-    margin: 150px auto;
+    margin: 100px auto;
     padding: 10px 20px;
     background-color: rgb(14, 18, 227);
     color: white;
